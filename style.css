@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  background-color: hsl(0, 0%, 80%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator{
+  max-width: 600px;
+  background-color: hsl(0, 0%, 20%);
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 10px 10px 80px rgba(0,0,0,0.8);
+}
+button{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(0, 0%, 30%);
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  font-weight: bold;
+}
+
+.keys{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+}
+button:hover{
+  background-color: hsl(0, 0%, 40%);
+}
+
+button:active{
+  background-color: hsl(0, 0%, 50%);
+}
+
+#display{
+  width: 100%;
+  padding: 25px;
+  background-color: hsl(0, 0%, 30%);
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.plus-button{
+  background-color: green;
+}
+
+.plus-button:hover{
+  background-color: hsl(120, 100%, 35%);
+}
+
+.plus-button:active{
+  background-color: hsl(120, 100%, 45%);
+}
+
+.minus-button{
+  background-color: green;
+}
+
+.minus-button:hover{
+  background-color: hsl(120, 100%, 35%);
+}
+
+.minus-button:active{
+  background-color: hsl(120, 100%, 45%);
+}
+
+
+.mult-button{
+  background-color: green;
+}
+
+.mult-button:hover{
+  background-color: hsl(120, 100%, 35%);
+}
+
+.mult-button:active{
+  background-color: hsl(120, 100%, 45%);
+}
+
+.div-button{
+  background-color: green;
+}
+
+.div-button:hover{
+  background-color: hsl(120, 100%, 35%);
+}
+
+.div-button:active{
+  background-color: hsl(120, 100%, 45%);
+}
+
+.clear-button{
+  background-color: green;
+}
+
+.clear-button:hover{
+  background-color: hsl(120, 100%, 35%);
+}
+
+.clear-button:active{
+  background-color: hsl(120, 100%, 45%);
+}
